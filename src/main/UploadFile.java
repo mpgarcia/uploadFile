@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 @SuppressWarnings("serial")
 public class UploadFile extends HttpServlet {
 
-    static final String SAVE_DIR = "D:/upload/";
-    static final int BUFFER_SIZE = 4096;
+    static final String SAVE_DIR = "C:/upload/";
+    static final int BUFFER_SIZE = 8192;
      
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
          
